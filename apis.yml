@@ -1,7 +1,28 @@
 aid: juni
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/juni.png
 name: Juni
-description: 'Juni is a company surfaced as a portfolio company of eqt-ventures and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Juni is a Swedish fintech (headquartered in Göteborg, founded 2020) that
+  provides a financial platform for ecommerce and digital businesses: business
+  banking with multi-currency accounts, corporate and virtual cards, local and
+  global payments, spend management, working-capital financing, and AI-driven
+  accounting with integrations such as Fortnox. Juni is a licensed payment
+  institution under the oversight of the Swedish Financial Supervisory Authority
+  (SFSA) and is backed by EQT Ventures. It exposes a regulatory PSD2 / Open
+  Banking (ASPSP) API surface for third-party providers, but publishes no public
+  product API, SDKs, or developer portal. This profile was added to the API
+  Evangelist network as a portfolio lead and enriched by the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/juni/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Banking
+- Spend Management
+- Payments
+- Ecommerce
+- Corporate Cards
+- Open Banking
+- Sweden
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/juni-trust-center.yml
+- type: DomainSecurity
+  url: security/juni-domain-security.yml
 - type: Website
   url: https://www.juni.co/
+- type: Support
+  url: https://help.juni.co/en/
+- type: Pricing
+  url: https://www.juni.co/price-plans
+- type: SignUp
+  url: https://app.juni.co/signup
+- type: TermsOfService
+  url: https://www.juni.co/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.juni.co/legal/privacy-policy
+- type: StatusPage
+  url: https://status.juni.co/
+- type: Lifecycle
+  url: lifecycle/juni-lifecycle.yml
+- type: Conformance
+  url: conformance/juni-conformance.yml
+- type: Compliance
+  url: https://www.juni.co/security
+- type: LLMsTxt
+  url: llms/juni-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

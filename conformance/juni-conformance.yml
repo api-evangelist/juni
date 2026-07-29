@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.juni.co/security, https://www.juni.co/legal/about-psd2, https://status.juni.co/
+standards:
+- id: psd2
+  conforms: true
+  evidence: >-
+    Juni is a licensed payment institution under Swedish FSA (SFSA) oversight
+    and publishes a PSD2 disclosure page plus an Open Banking APIs status
+    component (ASPSP access for third-party providers).
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001 certification named on https://www.juni.co/security
+- id: pci-dss
+  conforms: true
+  evidence: PCI DSS named on https://www.juni.co/security
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance stated on https://www.juni.co/security and privacy policy
+- id: open-banking
+  conforms: true
+  evidence: Open Banking APIs component published on https://status.juni.co/
+- id: oauth2
+  conforms: false
+  evidence: No public product OpenAPI declaring oauth2 security schemes
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI to assess error format

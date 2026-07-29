@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.juni.co/security
+url: https://www.juni.co/security
+certifications:
+- ISO 27001
+- PCI DSS
+- GDPR
+evidence:
+- source: https://www.juni.co/security
+  keywords:
+  - iso/iec 27001
+  - pci dss
+  - trust centre
+  - gdpr

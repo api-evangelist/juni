@@ -1,0 +1,29 @@
+# Juni
+
+> Juni is a Swedish fintech (Göteborg, founded 2020) offering business banking, spend management, multi-currency accounts, corporate/virtual cards, financing, and AI-driven accounting for ecommerce and digital businesses. Licensed under the Swedish FSA (SFSA) and backed by EQT Ventures. Juni exposes a regulatory PSD2 / Open Banking (ASPSP) API surface but publishes no public product API, SDKs, or developer portal.
+
+## Company
+- Website: https://www.juni.co/
+- Help Center / Support: https://help.juni.co/en/
+- Pricing: https://www.juni.co/price-plans
+- Careers: https://www.juni.co/careers
+- Sign up / Log in: https://app.juni.co/signup
+- Status page: https://status.juni.co/
+- Security / Trust: https://www.juni.co/security
+
+## Legal
+- Privacy Policy: https://www.juni.co/legal/privacy-policy
+- PSD2 disclosure: https://www.juni.co/legal/about-psd2
+
+## Compliance
+- ISO/IEC 27001
+- PCI DSS
+- GDPR
+- PSD2 (SFSA-licensed payment institution)
+
+## API Evangelist artifacts
+- Profile (APIs.json): https://raw.githubusercontent.com/api-evangelist/juni/refs/heads/main/apis.yml
+- Lifecycle / status: lifecycle/juni-lifecycle.yml
+- Conformance: conformance/juni-conformance.yml
+- Domain security: security/juni-domain-security.yml
+- Trust center: security/juni-trust-center.yml

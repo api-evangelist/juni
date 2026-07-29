@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.juni.co/
+status_page: https://status.juni.co/
+status_page_provider: incident.io
+components:
+- name: Apps
+  uptime: '99.96%'
+- name: Juni Platform
+  uptime: '98.88%'
+- name: Open Banking APIs
+  uptime: '99.97%'
+- name: Customer Service & Support
+  uptime: '100%'
+- name: Homepage (juni.co)
+  uptime: '100%'
+versioning: null
+deprecation: null
+sla: null
+notes: >-
+  Juni publishes a live incident.io status page tracking an Open Banking APIs
+  component (its regulatory PSD2 / ASPSP surface). No public product API,
+  versioning policy, or deprecation policy is published.
